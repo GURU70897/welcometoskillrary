@@ -24,6 +24,17 @@
   </modules>
 
   <distributionManagement>
+	  <repository>
+  <id>sanjayhs06</id>
+  <url>https://pkgs.dev.azure.com/sanjayhs06/_packaging/sanjayhs06/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+	  
     <site>
       <id>site-server</id>
       <name>Test Project Site</name>
@@ -188,6 +199,17 @@
       </plugins>
     </pluginManagement>
   </build>
+	
+<repository>
+  <id>sanjayhs06</id>
+  <url>https://pkgs.dev.azure.com/sanjayhs06/_packaging/sanjayhs06/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
 
   <dependencyManagement>
     <dependencies>
